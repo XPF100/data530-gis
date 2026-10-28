@@ -1,0 +1,103 @@
+---
+title: "Week 3 handout: migration cheat sheet"
+subtitle: "DATA 530 · Textbook Chapter 3"
+format:
+  html: default
+  typst:
+    papersize: us-letter
+    margin:
+      x: 0.75in
+      y: 0.7in
+    fontsize: 10pt
+---
+
+Keep this sheet open during the labs. It covers every Week 3 concept from Chapter 3, plus origin–destination flow mapping, which the textbook skips (marked \*).
+
+## Key terms
+
+| Term | Means |
+|---|---|
+| Migration | A change of permanent or semi-permanent residence |
+| Immigration / emigration | Moving in / moving out |
+| Migrant stock | People living somewhere they were not born, whenever they arrived |
+| Migrant flow | Moves during a set period, such as the past year |
+| Net migration | In-migrants − out-migrants, often per 1,000 population |
+| Diaspora | People who have left their homeland, as a group |
+| Refugee | Outside their country owing to a well-founded fear of persecution (1951 UN Refugee Convention) |
+| Internally displaced person | Forced from home by conflict, rights violations or disaster, but still inside their country |
+| Vulnerability | Susceptibility to harm when exposed to a disaster |
+| Intervening obstacle | Anything between origin and destination that slows migration: distance, cost, borders, policy |
+| Pioneer migrant | The first to arrive; sends information home |
+| Chain migration | Friends and family follow pioneers |
+| Cumulative causation | Migration becomes self-sustaining through networks and remittances |
+| Remittances | Money migrants send home |
+| Migrant selectivity | Movers differ from stayers, above all by age |
+
+## Push and pull forces
+
+| Force | Push (origin) | Pull (destination) |
+|---|---|---|
+| Economic | Low wages, unemployment | Jobs, higher wages, career growth |
+| Social and cultural | Family conflict, discrimination | Family and friends, shared language or religion |
+| Political | War, crime, persecution | Safety, democracy, rule of law |
+| Environmental | Drought, disaster | Pleasant climate |
+
+Forced and voluntary migration overlap, because insecurity and poverty often go together.
+
+## Distance and size
+
+- **Distance decay:** less migration between places farther apart, because distance adds cost, time and risk. 52% of African migrants and 60% of Asian migrants live in their own region.
+- **Gravity model:** flow is proportional to (population A × population B) ÷ distance. Large, close places exchange the most migrants.
+- **Cultural distance:** a shared language, religion or colonial history increases flows between distant places.
+- **Migration transition:** emigration is low in preindustrial societies, peaks as countries industrialize, then falls as they become wealthy.
+
+## Migrants and health
+
+- The ages of peak migration, late teens to mid-30s, are also ages of high HIV risk.
+- Surveys of residents only miss mobile young adults. ACDIS also counts non-resident household members: a third of members lived outside the area in 2006.
+- ACDIS HIV survey, 2003–2006: non-resident men had adjusted odds of HIV 1.8 times those of resident men; for women, 1.5 (Tanser et al. 2008).
+
+## Public health case: Dobra et al. 2017
+
+| Measure | Value |
+|---|---|
+| HIV-negative adults followed (2000–2014) | 17,743 |
+| Geolocated migration events | 8,006, covering over 1 million km |
+| Migrated outside the study area at least once | 17.4% |
+| Median migration distance | 107 km |
+| Distance at which HIV risk rose by 50% | Men 40 km; women 109 km |
+| Share of time away at which HIV risk rose by 50% | Men 44%; women 90% |
+
+Main finding: a nonlinear relationship. Even relatively short moves carried substantial added risk.
+
+## Mapping flows\*
+
+**Origin–destination (OD) table:** one row per move or pair of places: origin, destination, count. Keep coordinates or place IDs for both ends.
+
+| To do this | Go to |
+|---|---|
+| Draw flow lines and measure each move | Analysis → Tools → Connect Origins to Destinations. Choose origin and destination layers, match them by ID, and pick straight-line distance or travel time (uses credits) |
+| Show volume as line width | Select the line layer → Styles → choose the count field → Counts and amounts (size) |
+| Classify short vs long moves | Styles → choose the distance field → Classify data → Manual breaks (for example at 40 km and 100 km) |
+| Map net migration | Add a field and calculate in-migrants − out-migrants; divide by population × 1,000 for a rate |
+
+Sign in at [emory.maps.arcgis.com](https://emory.maps.arcgis.com). Login instructions and free Esri training are on the [Emory GIS resources page](https://gis.ecds.emory.edu/). Esri renames menus from time to time, so if a label differs, look for the nearest match.
+
+## Six questions to ask any migration map
+
+1. Stock or flow? Over what period?
+2. Counts, rates or net migration?
+3. Which scale: international, national or local?
+4. Who is missing: non-residents, the undocumented?
+5. Where was the exposure: home or destination?
+6. Is distance straight-line or travel time?
+
+## Textbook correction
+
+The "Characteristics of migrants" section credits "Rubenstein" with 1800s migration research. It means E. G. Ravenstein, named correctly earlier in the chapter.
+
+## Sources
+
+- Textbook: *Introduction to Human Geography Using ArcGIS Online*, Chapter 3 (Esri Press)
+- Dobra A, Bärnighausen T, Vandormael A, Tanser F. Space-time migration patterns and risk of HIV acquisition in rural South Africa. *AIDS.* 2017;31(1):137-145. [doi:10.1097/QAD.0000000000001292](https://doi.org/10.1097/QAD.0000000000001292)
+- Tanser F, Hosegood V, Bärnighausen T, et al. Cohort profile: Africa Centre Demographic Information System (ACDIS) and population-based HIV survey. *Int J Epidemiol.* 2008;37(5):956-962. [doi:10.1093/ije/dym211](https://doi.org/10.1093/ije/dym211)

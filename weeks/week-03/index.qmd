@@ -3,7 +3,17 @@ title: "Week 3 · Migration"
 subtitle: "Textbook Chapter 3"
 ---
 
-**Skill this week:** mapping flows and mobility, distance decay, and treating mobility as a health exposure.
+**Skill this week:** treating mobility as a health exposure. By the end of the week you should be able to tell migrant stock from migrant flow, explain migration with push and pull forces, distance decay and the gravity model, and read a flow map.
+
+## Materials
+
+::: {.week-card}
+**[Slides](slides.qmd)**: stock and flow, push and pull, distance, networks, and migration and HIV. Press `S` to open the speaker notes.
+:::
+
+::: {.week-card}
+**[Handout and cheat sheet](handout.qmd)**: every Week 3 term in one place, with steps for mapping flows in ArcGIS Online. A PDF version is linked on the handout page.
+:::
 
 ## Read
 
@@ -12,12 +22,10 @@ subtitle: "Textbook Chapter 3"
 
 ## Map
 
-ArcGIS Online Exercises 3.1 Spatial distributions, 3.2 Push and pull forces and 3.3 Refugees.
+Complete ArcGIS Online Exercises 3.1 Spatial distributions, 3.2 Push and pull forces, and 3.3 Refugees. The links are at [esri.com/Human-Geography](https://www.esri.com/Human-Geography).
+
+For more practice: Exercise 3.4 Does immigration increase unemployment?
 
 ## Public health case
 
-Circular labour migration and the risk of HIV acquisition in the ACDIS surveillance population.
-
-::: {.callout-note}
-Slides and handout for this week are being prepared.
-:::
+Using the geolocated residential history of every person in the ACDIS cohort, Dobra and colleagues found that HIV risk rose by half at migration distances of 40 km for men and 109 km for women.

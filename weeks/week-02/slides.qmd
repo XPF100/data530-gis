@@ -13,6 +13,7 @@ format:
     transition: fade
     hash-type: number
     preview-links: auto
+    auto-stretch: false
 ---
 
 ## This week
@@ -174,7 +175,7 @@ Mortality has three main measures. The crude death rate is deaths per thousand p
 
 ## Life expectancy is an average, not a ceiling
 
-![](images/le-average.svg){fig-alt="Five deaths at ages 1, 19, 56, 79 and 95 average 50, pulled down by the infant death" width="80%"}
+![](images/le-average.svg){fig-alt="Five deaths at ages 1, 19, 56, 79 and 95 average 50, pulled down by the infant death" width="70%"}
 
 Three of these five people lived past the average. One infant death pulls the mean down sharply.
 
@@ -286,15 +287,22 @@ The sex ratio is the number of males per one hundred females. At birth it is nat
 
 ## The demographic transition model
 
-![](images/dtm.svg){fig-alt="Demographic transition: birth and death rates both high in stage 1, deaths fall in stage 2, births fall in stage 3, both low in stage 4, births below deaths in stage 5" width="70%"}
+:::: {.columns}
+::: {.column width="42%"}
+![](images/dtm.svg){fig-alt="Demographic transition: birth and death rates both high in stage 1, deaths fall in stage 2, births fall in stage 3, both low in stage 4, births below deaths in stage 5" }
 
-| Stage | Births | Deaths | Growth | Why |
-|---|---|---|---|---|
-| 1 | High | High | Slow | Children are farm labour; disease and hunger |
-| 2 | High | Falling | Rapid | Clean water, sanitation, vaccines |
-| 3 | Falling | Low | Slowing | Urban life, contraception, women's education |
-| 4 | Low | Low | Near zero | Modern urban society |
-| 5? | Very low | Low | Negative | Little support for working parents |
+[Growth is fastest in stage 2, when deaths have fallen but births have not.]{.muted}
+:::
+::: {.column width="58%"}
+| Stage | Births | Deaths | Why |
+| --- | --- | --- | --- |
+| 1 | High | High | Children are farm labour; disease and hunger |
+| 2 | High | Falling | Clean water, sanitation, vaccines |
+| 3 | Falling | Low | Urban life, contraception, women's education |
+| 4 | Low | Low | Modern urban society |
+| 5? | Very low | Low | Little support for working parents |
+:::
+::::
 
 ::: {.notes}
 The demographic transition model explains how places move through stages of births and deaths. In stage one, preindustrial societies have high births and high deaths, so growth is slow. In stage two, deaths fall thanks to better food, clean water, sanitation and medicine, while births stay high, so population booms. The chapter mentions John Snow’s cholera map here: a spatial analysis that helped launch urban water systems. In stage three, births fall as people move to cities, children become costly rather than helpful, contraception spreads and women stay in school and work longer. In stage four both rates are low and growth is near zero. Some geographers add a stage five, where births fall below deaths. The model is a generalisation, and the textbook contrasts it with Malthus’s theory that population will outrun food, a prediction that has not come true at the global scale.
