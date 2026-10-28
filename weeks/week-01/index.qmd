@@ -8,7 +8,7 @@ subtitle: "Textbook Chapter 1, Introduction"
 ## Materials
 
 ::: {.week-card}
-**[Slides](slides.qmd)**: 25 slides covering all of Chapter 1. Press `S` to open the speaker notes, which explain each slide.
+**[Slides](slides.qmd)**: 27 slides covering all of Chapter 1, including how colonialism and racism shaped the discipline. Press `S` to open the speaker notes, which explain each slide.
 :::
 
 ::: {.week-card}

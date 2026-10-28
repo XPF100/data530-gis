@@ -3,7 +3,17 @@ title: "Week 7 · Environment and health"
 subtitle: "Textbook Chapter 12, Humans and the environment"
 ---
 
-**Skill this week:** exposure assessment for air and water pollution, sanitation and climate, and a capstone map.
+**Skill this week:** exposure assessment, and a capstone map. By the end of the week you should be able to assess exposure with buffers, overlays and community-level measures, explain point and nonpoint pollution, and build a final map that uses the skills from every week.
+
+## Materials
+
+::: {.week-card}
+**[Slides](slides.qmd)**: air, water and land pollution, climate change and health, exposure methods, the piped water study, and the capstone checklist. Press `S` to open the speaker notes.
+:::
+
+::: {.week-card}
+**[Handout and cheat sheet](handout.qmd)**: Week 7 terms and figures, exposure methods, ArcGIS Online steps and the capstone checklist. A PDF version is linked on the handout page.
+:::
 
 ## Read
 
@@ -12,12 +22,10 @@ subtitle: "Textbook Chapter 12, Humans and the environment"
 
 ## Map
 
-ArcGIS Online Exercises 12.2 Air pollution exposure at a local scale, 12.3 Sanitation and health, and 12.5 Global carbon emissions.
+Complete ArcGIS Online Exercises 12.2 Air pollution exposure at a local scale, 12.3 Water pollution: sanitation facilities and human health, and 12.5 Global carbon emissions. The links are at [esri.com/Human-Geography](https://www.esri.com/Human-Geography).
+
+For more practice: Exercises 12.1 US air pollution and 12.4 Land pollution: Superfund sites.
 
 ## Public health case
 
-How piped water coverage in the ACDIS area relates to a waterborne parasitic infection.
-
-::: {.callout-note}
-Slides and handout for this week are being prepared.
-:::
+As piped water coverage in the ACDIS area rose from 42% to 80% of households, children in the best-served communities had about eight times lower odds of urogenital schistosomiasis than those in the least-served communities.

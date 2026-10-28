@@ -1,0 +1,121 @@
+---
+title: "Week 7 handout: environment and health cheat sheet"
+subtitle: "DATA 530 · Textbook Chapter 12"
+format:
+  html: default
+  typst:
+    papersize: us-letter
+    margin:
+      x: 0.75in
+      y: 0.7in
+    fontsize: 10pt
+---
+
+Keep this sheet open during the labs and the capstone. It covers the Week 7 concepts from Chapter 12, plus exposure assessment methods, which the textbook skips (marked \*).
+
+## Key terms
+
+| Term | Means |
+|---|---|
+| Pollution | A substance added to the environment faster than it can be dispersed, decomposed or diluted |
+| Anthropocene | Proposed epoch in which human actions drive change in the Earth system |
+| PM2.5 | Particles smaller than 2.5 microns that reach deep into the lungs |
+| Point source | Pollution from one location, such as a discharge pipe |
+| Nonpoint source | Diffuse pollution, such as farm and street runoff |
+| Improved sanitation | Facilities that separate human waste from human contact |
+| Open dump / controlled landfill / sanitary landfill | Disposal with little or no control / liner, compaction and daily cover / nearly all leachate contained and treated |
+| Superfund | 1980 US law making polluters pay to clean up contaminated sites |
+| Weather / climate | Short-term atmospheric conditions / long-term patterns |
+| Mitigation / adaptation | Reducing greenhouse gases / reducing vulnerability to change |
+| Environmental justice | Fair distribution of environmental hazards and fair enforcement of environmental law |
+
+## Key numbers from the chapter
+
+| Topic | Figure |
+|---|---|
+| Urban residents breathing air above WHO limits | Over 80%; 98% in low- and middle-income, 56% in high-income countries |
+| Freeway exposure | Substantial within 300 ft; can extend past 1,000 ft |
+| WHO annual PM2.5 guideline | 10 μg/m³ when the textbook was written; lowered to 5 μg/m³ in 2021\* |
+| Wastewater discharged untreated | Over 80%; treated: about 70% (high-income) vs 8% (low-income) |
+| People without improved sanitation | About 2.4 billion; about 1 billion practise open defecation |
+| Municipal waste collected | About 98% (high-income) vs 41% (low-income) |
+| Atmospheric CO₂ | Above 400 ppm by 2017 |
+| Sea level rise since 1993 | About 80 mm |
+
+Most at risk from climate change: drylands with variable rainfall, low-lying coasts with cyclones, and low atolls.
+
+## Assessing exposure\*
+
+| Method | Question it answers | ArcGIS Online tool |
+|---|---|---|
+| Proximity buffer | Who lives within a set distance of a source? | Create Buffers |
+| Overlay | Which homes fall inside a hazard zone? | Overlay Layers |
+| Interpolated surface | What is the value between monitors? | Interpolate Points |
+| Summarize by area | How many people or homes are exposed in each tract? | Summarize Within |
+| Community coverage | What share of neighbours have a protective factor? | Kernel or buffer around each home, then Summarize Within |
+
+All analysis tools use credits. Test on a small area first.
+
+## ArcGIS Online quick steps
+
+Sign in at [emory.maps.arcgis.com](https://emory.maps.arcgis.com). Login instructions and free Esri training are on the [Emory GIS resources page](https://gis.ecds.emory.edu/). Esri renames menus from time to time, so if a label differs, look for the nearest match.
+
+| To do this | Go to |
+|---|---|
+| Buffer a source | Analysis → Tools → Create Buffers; set distance (for example 300 ft) (uses credits) |
+| Find homes inside a hazard area | Analysis → Tools → Overlay Layers, intersect homes with the hazard layer (uses credits) |
+| Make a surface from monitors | Analysis → Tools → Interpolate Points, using monitor values (uses credits) |
+| Count exposed people by area | Analysis → Tools → Summarize Within (uses credits) |
+| Show exposure as a rate | Styles → choose the exposed count → Divided by → total population |
+
+## Public health case: Tanser et al. 2018
+
+| Measure | Value |
+|---|---|
+| Households with piped water | 42% (2001) to 80% (2007) |
+| Children tested | 2,105; 16.8% infected (boys 22.6%, girls 11.4%) |
+| Local prevalence (kernel surface) | 0% to 85% |
+| High-risk clusters | 4, around open water collection sites (relative risk 2.99–5.63) |
+| Exposure measure | Share of households with piped water within 2 km of each child's home, averaged 2001–2007 |
+| Adjusted odds of infection by coverage quintile (vs lowest) | Q2 0.39; Q3 0.30; Q4 0.16; Q5 0.12 |
+| Each 1% increase in community coverage | About 2.5% lower odds of infection |
+| Household piped water alone | Adjusted odds ratio 0.54 |
+
+Main finding: community-level piped water coverage protected children far more than household access alone, because fewer neighbours using open water means less contamination for everyone.
+
+## Critical lens
+
+- **Environmental racism:** 1982 protests against a PCB landfill in majority-Black Warren County, North Carolina, helped launch the environmental justice movement. Hazardous facilities are often sited near communities of colour.
+- **Global inequity:** wealthy countries have exported hazardous waste to poorer ones, prompting the Basel Convention (1989) and the African Bamako Convention (1991). Those least responsible for climate change are often most exposed.
+- **Our study area:** piped water reached some communities years before others, and that sequence shows in children's infection risk.
+
+## Capstone checklist
+
+| Week | Show in your final map |
+|---|---|
+| 1 | Quality data with metadata; suitable projection; honest class breaks |
+| 2 | Rates with the right denominator |
+| 3 | Mobility or flows, where relevant |
+| 4 | A joined table, a tested cluster, or a location quotient |
+| 5 | Access: buffer or travel-time area |
+| 6 | Two variables together, or a composite index |
+| 7 | An exposure measure, plus a critical-lens note on whose data and whose history |
+
+## Six questions to ask any exposure map
+
+1. Measured, modelled or interpolated?
+2. Household or community exposure?
+3. Which distance, and why that distance?
+4. Point or nonpoint source?
+5. Crude or age-standardized outcomes?
+6. Who lives next to the hazard, and why?
+
+## Textbook corrections
+
+- The chapter calls Hurricane Katrina "category 5". It was Category 3 at landfall.
+- It places Syria in North Africa. Syria is in the Middle East.
+
+## Sources
+
+- Textbook: *Introduction to Human Geography Using ArcGIS Online*, Chapter 12 (Esri Press)
+- Tanser F, Azongo DK, Vandormael A, Bärnighausen T, Appleton C. Impact of the scale-up of piped water on urogenital schistosomiasis infection in rural South Africa. *eLife.* 2018;7:e33065. [doi:10.7554/eLife.33065](https://doi.org/10.7554/eLife.33065)
