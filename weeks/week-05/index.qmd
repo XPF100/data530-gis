@@ -3,7 +3,17 @@ title: "Week 5 · Food and health"
 subtitle: "Textbook Chapter 6, Food and agriculture"
 ---
 
-**Skill this week:** access analysis for food security, using buffers and proximity.
+**Skill this week:** access analysis. By the end of the week you should be able to define food security and food deserts, measure access with buffers and travel-time areas, and explain how infectious and diet-related diseases now overlap in the same populations.
+
+## Materials
+
+::: {.week-card}
+**[Slides](slides.qmd)**: agricultural revolutions, how farming is organized, von Thünen, food security, food deserts, access analysis, and the Vukuzazi multimorbidity study. Press `S` to open the speaker notes.
+:::
+
+::: {.week-card}
+**[Handout and cheat sheet](handout.qmd)**: Week 5 definitions, the access-analysis workflow and ArcGIS Online steps. A PDF version is linked on the handout page.
+:::
 
 ## Read
 
@@ -12,12 +22,10 @@ subtitle: "Textbook Chapter 6, Food and agriculture"
 
 ## Map
 
-ArcGIS Online Exercises 6.4 Food deserts and racial disparities, and 6.5 Undernourishment and development.
+Complete ArcGIS Online Exercises 6.4 Food deserts and racial disparities, and 6.5 Undernourishment and development. The links are at [esri.com/Human-Geography](https://www.esri.com/Human-Geography).
+
+For more practice: Exercises 6.1 The Columbian exchange, 6.2 Agriculture and development, and 6.3 Farmers' markets.
 
 ## Public health case
 
-Vukuzazi: the burden of obesity, hypertension and diabetes alongside HIV in a rural area.
-
-::: {.callout-note}
-Slides and handout for this week are being prepared.
-:::
+Vukuzazi screened 17,118 people in rural KwaZulu-Natal. More than half had at least one active disease. HIV was well controlled (78.1%), but high blood pressure (42.5%) and high blood glucose (7.1%) mostly were not.

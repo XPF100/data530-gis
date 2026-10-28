@@ -1,0 +1,112 @@
+---
+title: "Week 5 handout: food and health cheat sheet"
+subtitle: "DATA 530 · Textbook Chapter 6"
+format:
+  html: default
+  typst:
+    papersize: us-letter
+    margin:
+      x: 0.75in
+      y: 0.7in
+    fontsize: 10pt
+---
+
+Keep this sheet open during the labs. It covers the Week 5 concepts from Chapter 6, plus access analysis with buffers and travel-time areas, which the textbook skips (marked \*).
+
+## Key terms
+
+| Term | Means |
+|---|---|
+| Primary sector | Extracting raw materials: farming, fishing, mining, logging |
+| First agricultural revolution | Domestication of plants and animals, from about 9000 BCE, in several hearths |
+| Second agricultural revolution | Crop rotation, enclosure, machinery and purchased inputs, about 1750–1880 |
+| Green revolution | High-yield seeds, fertilizers and irrigation from the mid-1900s; later GMOs |
+| Columbian exchange | Movement of crops, animals, people and diseases between hemispheres after 1492 |
+| Comparative advantage | Places specialize in what they produce most efficiently, using land, labour and capital, then trade |
+| Commercial agriculture | Farming to sell for cash |
+| Subsistence agriculture | Farming mainly to feed the household |
+| Intensive / extensive | High yield per area / low yield over large areas |
+| Von Thünen model | Land use forms rings around a market, set by revenue per area, land cost and transport cost |
+| Hunger | A prolonged lack of food; shows as stunting and underweight |
+| Food security | Reliable access to enough food of the quality and diversity needed for health |
+| Food desert | Low income plus low access to healthy food (see definition below) |
+| Food loss / food waste | Lost between farm and market / discarded by retailers or consumers |
+
+**Textbook food desert definition (US):** census tracts where at least 100 households are low income, have no vehicle, and are more than half a mile from a supermarket.
+
+## Von Thünen rings, from the market outward
+
+1. Market gardening and dairy: perishable, high revenue per area
+2. Forest: heavy fuelwood and timber
+3. Grain crops: lower revenue, easy to transport
+4. Livestock grazing: needs the most land
+
+## Watch for these traps
+
+- **Supply is not access.** World food supply per person has risen, yet hunger persists where people are poor or markets are disrupted.
+- **Access is not diet.** Opening a supermarket does not always change what people eat; cost and habits matter too.
+- **Buffers overstate access.** Straight lines ignore roads, terrain and transport.
+- **Store lists vary.** Check which stores a dataset counts as healthy food sources.
+
+## Measuring access\*
+
+| Method | Includes | Use when |
+|---|---|---|
+| Buffer | Everything within a straight-line distance | Quick screening, or where travel is truly direct |
+| Travel-time area | Everything reachable along roads within a set time, walking or driving | Realistic access, especially in rural areas |
+| Nearest facility | Distance or time from each home to its closest facility | Ranking who is farthest from services |
+
+**Workflow:** draw areas around facilities → overlay population or households → count who falls outside → map the gap as a rate.
+
+## ArcGIS Online quick steps
+
+Sign in at [emory.maps.arcgis.com](https://emory.maps.arcgis.com). Login instructions and free Esri training are on the [Emory GIS resources page](https://gis.ecds.emory.edu/). Esri renames menus from time to time, so if a label differs, look for the nearest match.
+
+| To do this | Go to |
+|---|---|
+| Draw straight-line buffers | Analysis → Tools → Create Buffers. Choose the store layer, distance and units; dissolve overlapping buffers if you want one area (uses credits) |
+| Draw travel-time areas | Analysis → Tools → Create Drive-Time Areas. Choose walking or driving time and the time breaks (uses credits) |
+| Count people inside or outside | Analysis → Tools → Summarize Within, with tracts or population points as the summarized layer (uses credits) |
+| Select tracts that meet a definition | Select the tract layer → Filter → add conditions, for example low-income households ≥ 100 and households without a vehicle ≥ 100 |
+| Find each home's nearest store | Analysis → Tools → Find Nearest (uses credits) |
+
+Analysis tools spend credits. Test on a small area first.
+
+## Public health case: Wong et al. 2021 (Vukuzazi)
+
+| Measure | Value |
+|---|---|
+| People aged 15+ screened, May 2018 – Nov 2019 | 17,118 |
+| At least one active disease | 52.1% |
+| HIV | 34.2% |
+| Elevated blood pressure | 23.0% |
+| Elevated blood glucose | 8.5% |
+| Active tuberculosis / lifetime tuberculosis | 1.4% / 21.8% |
+| Appropriate treatment and optimal control | HIV 78.1%; blood pressure 42.5%; active TB 29.6%; blood glucose 7.1% |
+
+Main finding: infectious and non-communicable disease epidemics converge in one rural population. HIV is well treated; the other conditions are poorly diagnosed and controlled. Patterns differed by sex, age and place.
+
+## Critical lens
+
+- Plantation agriculture in the Americas relied on enslaved and indentured labour. Many former colonies still depend on one export crop.
+- South Africa's 1913 Natives Land Act restricted Black land ownership to about 7% of the country, later about 13%, leaving crowded rural reserves with little farmland.
+- Some advocates prefer **"food apartheid"** to "food desert", to name the policies behind unequal access.
+
+## Six questions to ask any food access map
+
+1. Supply, access or quality?
+2. Straight-line buffer or travel time?
+3. Walking, driving or public transit?
+4. Which stores count as "healthy food"?
+5. Who lacks a vehicle, and where?
+6. What history made access unequal?
+
+## Textbook corrections
+
+- The chapter credits Old World to New World diffusion for Ireland's potato. The potato is a New World crop that spread *from* the Americas.
+- It calls the peppers in Indian curries "Old World peppers". Chili peppers are New World crops.
+
+## Sources
+
+- Textbook: *Introduction to Human Geography Using ArcGIS Online*, Chapter 6 (Esri Press)
+- Wong EB, Olivier S, Gunda R, et al. Convergence of infectious and non-communicable disease epidemics in rural South Africa: a cross-sectional, population-based multimorbidity study. *Lancet Glob Health.* 2021;9(7):e967-e976. [doi:10.1016/S2214-109X(21)00176-5](https://doi.org/10.1016/S2214-109X(21)00176-5)
