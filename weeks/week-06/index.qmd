@@ -3,7 +3,17 @@ title: "Week 6 · Development and access"
 subtitle: "Textbook Chapter 9, Development"
 ---
 
-**Skill this week:** composite indices such as the Human Development Index, inequality, the rural–urban divide, and distance to health services.
+**Skill this week:** mapping inequality and access. By the end of the week you should be able to explain what the HDI and Gini coefficient measure, make a bivariate map, build a simple composite index, and model travel time to health care.
+
+## Materials
+
+::: {.week-card}
+**[Slides](slides.qmd)**: measuring development, inequality, theories of development, density–distance–division, bivariate maps, and modelling travel time to clinics. Press `S` to open the speaker notes.
+:::
+
+::: {.week-card}
+**[Handout and cheat sheet](handout.qmd)**: development measures, theories, the travel-time workflow and ArcGIS Online steps. A PDF version is linked on the handout page.
+:::
 
 ## Read
 
@@ -12,12 +22,10 @@ subtitle: "Textbook Chapter 9, Development"
 
 ## Map
 
-ArcGIS Online Exercises 9.1 Human development, 9.3 Density and the rural–urban divide, and 9.4 Distance to urban areas.
+Complete ArcGIS Online Exercises 9.1 The human development report, 9.3 Density: the rural–urban divide in the United States, and 9.4 Distance: how does proximity to urban areas impact development? The links are at [esri.com/Human-Geography](https://www.esri.com/Human-Geography).
+
+For more practice: Exercises 9.2 The invisible hand, and 9.5 Globalization or protectionism.
 
 ## Public health case
 
-Travel time to the nearest clinic in the ACDIS area, modelled in a GIS, and how it shapes clinic use.
-
-::: {.callout-note}
-Slides and handout for this week are being prepared.
-:::
+A GIS travel-time model for about 23,000 homesteads found a median of 81 minutes to the nearest clinic. Homesteads within 30 minutes had about ten times the odds of using a clinic as those 90 to 120 minutes away.
