@@ -3,7 +3,17 @@ title: "Week 2 · Population"
 subtitle: "Textbook Chapter 2"
 ---
 
-**Skill this week:** counts vs rates (normalizing), population density, population pyramids and the demographic transition.
+**Skill this week:** calculating and mapping demographic rates. By the end of the week you should be able to normalize counts into rates, read a population pyramid, explain the demographic transition, and explain why crude rates can mislead.
+
+## Materials
+
+::: {.week-card}
+**[Slides](slides.qmd)**: births, deaths, density, pyramids and the demographic transition. Press `S` to open the speaker notes.
+:::
+
+::: {.week-card}
+**[Handout and cheat sheet](handout.qmd)**: every Week 2 formula in one place, with ArcGIS Online steps. A PDF version is linked on the handout page.
+:::
 
 ## Read
 
@@ -12,12 +22,10 @@ subtitle: "Textbook Chapter 2"
 
 ## Map
 
-ArcGIS Online Exercises 2.1 Spatial distribution, 2.2 Fertility, 2.3 Death rates and 2.4 Population structure.
+Complete ArcGIS Online Exercises 2.1 Spatial distribution of population, 2.2 Fertility rates, 2.3 Death rates and natural increase, and 2.4 Population structure. The links are at [esri.com/Human-Geography](https://www.esri.com/Human-Geography).
+
+For more practice: Exercise 2.5 The demographic transition in Latin America.
 
 ## Public health case
 
-ACDIS as a health and demographic surveillance system: births, deaths, population pyramids, and the recovery in adult life expectancy after HIV treatment was scaled up.
-
-::: {.callout-note}
-Slides and handout for this week are being prepared.
-:::
+ACDIS measured adult life expectancy every year from 2000 to 2011. In 2003, before HIV treatment reached the public health system, it was 49.2 years; by 2011 it was 60.5 years.

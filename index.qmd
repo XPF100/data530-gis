@@ -18,7 +18,7 @@ The course is fully online and asynchronous, with seven weeks and one textbook c
 ## What you need
 
 - **Textbook:** *Introduction to Human Geography Using ArcGIS Online* (Esri Press). The exercise links are on the book's resource page at [esri.com/Human-Geography](https://www.esri.com/Human-Geography).
-- **ArcGIS Online:** an organizational account. Canvas has instructions for getting one.
+- **ArcGIS Online:** use Emory's ArcGIS Online organization at [emory.maps.arcgis.com](https://emory.maps.arcgis.com). The [Emory GIS resources page](https://gis.ecds.emory.edu/) has the login instructions and free Esri training you can take with your NetID.
 - **A web browser.** Nothing needs to be installed.
 
 ## Public health throughout

@@ -1,0 +1,112 @@
+---
+title: "Week 2 handout: population cheat sheet"
+subtitle: "DATA 530 · Textbook Chapter 2"
+format:
+  html: default
+  typst:
+    papersize: us-letter
+    margin:
+      x: 0.75in
+      y: 0.7in
+    fontsize: 10pt
+---
+
+Keep this sheet open during the labs. It has every Week 2 formula in one place, plus the age-standardization idea the textbook skips (marked \*).
+
+## Formulas
+
+| Measure | Formula | Example |
+|---|---|---|
+| Arithmetic density | people ÷ land area | Singapore: over 7,500 per km² |
+| Physiological density | people ÷ arable land | Singapore: over 945,000 per km² of arable land |
+| Agricultural density | rural residents ÷ arable land | Egypt over 1,800; United States 39 |
+| Population change | births − deaths + immigration − emigration | The demographic equation |
+| Crude birth rate (CBR) | births ÷ population × 1,000 | United States 12.49 (2015) |
+| Total fertility rate (TFR) | average children per woman over a lifetime | Niger 6.76; Singapore 0.81 (2015) |
+| Crude death rate (CDR) | deaths ÷ population × 1,000 | Lesotho 14.89; Qatar 1.53 (2015) |
+| Infant mortality rate (IMR) | deaths before age 1 ÷ live births × 1,000 | World: about 122 (1960) to under 32 (2015) |
+| Natural increase (%) | (CBR − CDR) ÷ 10 | United States 0.43%; Malawi 3.31% |
+| Doubling time (rule of 70) | 70 ÷ natural increase (%) | United States 161 years; Malawi 21 years |
+| Dependency ratio | (ages 0–14 + ages 65 and over) ÷ ages 15–64 × 100 | Higher = more dependents per worker |
+| Sex ratio | males ÷ females × 100 | About 105 at birth |
+
+**Replacement fertility** is a TFR of about 2.1. Above it, the population grows in the long run; below it, it shrinks.
+
+## Watch for these traps
+
+- **Crude rates mix risk with age.** Germany and Italy have higher crude death rates than Iraq because they have more elderly people.
+- **Life expectancy is an average.** Infant deaths pull it down: deaths at ages 1, 19, 56, 79 and 95 average 50. **Adult life expectancy** (from age 15) removes that effect.
+- **Doubling time ignores migration.** It uses births and deaths only.
+- **Who is counted?** Residents only and all household members give different pyramids. In ACDIS, a third of household members lived outside the area in 2006.
+- **Age-standardized rates\*** apply each area's age-specific rates to one standard population, so areas with different age structures can be compared fairly. Always check whether a rate is crude or standardized.
+
+## Reading a population pyramid
+
+Each bar is a 5-year age group, youngest at the bottom, males on the left and females on the right.
+
+| Shape | Looks like | Means |
+|---|---|---|
+| Expanding | Wide base, narrows fast | High births and deaths; young and growing |
+| Stationary | Even bars until old age | Low births and deaths; stable |
+| Contracting | Narrower base than middle | Fertility below replacement; ageing |
+
+Bulges are past baby booms moving up the pyramid. Dents can be wars, epidemics or migration.
+
+**Demographic dividend:** about 20 years after fertility falls, a large working-age generation supports few dependents. It is a window for economic growth that closes as that generation ages.
+
+## Demographic transition model
+
+| Stage | Births | Deaths | Growth | Why |
+|---|---|---|---|---|
+| 1 Preindustrial | High | High | Slow | Children are farm labour; disease and hunger |
+| 2 Early urban-industrial | High | Falling | Rapid | Food, clean water, sanitation, vaccines |
+| 3 Ongoing urban-industrial | Falling | Low | Slowing | Urban costs of children, contraception, women's education and work |
+| 4 Modern urban | Low | Low | Near zero | Small families, long lives |
+| 5 Decline (proposed) | Very low | Low | Negative | Little support for working parents |
+
+**Malthusian theory** says population outruns food and then collapses. It contrasts with the transition model, and its prediction has not come true at the global scale.
+
+## Public health case: ACDIS
+
+| Measure | Value | Source |
+|---|---|---|
+| Adult life expectancy, 2003 (before public HIV treatment) | 49.2 years | Bor et al. 2013 |
+| Adult life expectancy, 2011 | 60.5 years | Bor et al. 2013 |
+| Gain | 11.3 years | Bor et al. 2013 |
+| Probability of dying between 16 and 60, 2000 | Women 58%, men 75% | Tanser et al. 2008 |
+| Deaths caused by AIDS at ages 15–44, 2000 | Women 73%, men 61% | Tanser et al. 2008 |
+| Total fertility rate | 4.4 in the late 1990s, then stalled near 3 | Tanser et al. 2008 |
+
+## ArcGIS Online quick steps
+
+Sign in at [emory.maps.arcgis.com](https://emory.maps.arcgis.com). Login instructions and free Esri training are on the [Emory GIS resources page](https://gis.ecds.emory.edu/). Esri renames menus from time to time, so if a label differs, look for the nearest match.
+
+| To do this | Go to |
+|---|---|
+| Map a rate without changing the data | Select the layer → Styles → choose the count field → Style options → Divided by → choose the population field |
+| Add a permanent rate field | Open the layer's item page → Data tab → Fields → Add field (type Double). Then in the table, select the new field → Calculate, and enter for example `$feature.deaths / $feature.population * 1000` |
+| Compare classes fairly | Style options → Classify data → keep the same method and breaks across maps you compare |
+| Find a population-weighted center | Analysis → Tools → Summarize Center and Dispersion (uses credits) |
+| Show a value when you click | Select the layer → Pop-ups → add the rate field |
+
+Field names vary by layer. Check the Data tab for the exact names before you calculate.
+
+## Six questions to ask any population map
+
+1. Count, density or rate?
+2. Which denominator, and from what year?
+3. Crude or age-standardized?
+4. Residents only, or all members?
+5. Births and deaths only, or migration too?
+6. What history shaped this pyramid?
+
+## Textbook corrections
+
+- A figure caption says world population "remained relatively flat until 2015". It means until about 1800.
+- The text says humans migrated out of Africa "millions of years ago". Modern humans spread out of Africa tens of thousands of years ago.
+
+## Sources
+
+- Textbook: *Introduction to Human Geography Using ArcGIS Online*, Chapter 2 (Esri Press)
+- Bor J, Herbst AJ, Newell ML, Bärnighausen T. Increases in adult life expectancy in rural South Africa: valuing the scale-up of HIV treatment. *Science.* 2013;339(6122):961-965. [doi:10.1126/science.1230413](https://doi.org/10.1126/science.1230413)
+- Tanser F, Hosegood V, Bärnighausen T, et al. Cohort profile: Africa Centre Demographic Information System (ACDIS) and population-based HIV survey. *Int J Epidemiol.* 2008;37(5):956-962. [doi:10.1093/ije/dym211](https://doi.org/10.1093/ije/dym211)

@@ -24,6 +24,8 @@ subtitle: "Textbook Chapter 1, Introduction"
 
 Complete ArcGIS Online Exercises 1.1 Introduction to ArcGIS Online, 1.2 Map basics, and 1.4 Spatial patterns and spatial relationships. The links are at [esri.com/Human-Geography](https://www.esri.com/Human-Geography).
 
+Sign in to ArcGIS Online through Emory's organization at [emory.maps.arcgis.com](https://emory.maps.arcgis.com). Login instructions are on the [Emory GIS resources page](https://gis.ecds.emory.edu/).
+
 For more practice: Exercises 1.3, 1.5, 1.6 and 1.7.
 
 ## Public health case

@@ -169,6 +169,8 @@ Textbook correction: the flu pandemic in this part of Chapter 1 is the 1918 pand
 
 ## ArcGIS Online quick steps
 
+Sign in at [emory.maps.arcgis.com](https://emory.maps.arcgis.com). Login instructions and free Esri training are on the [Emory GIS resources page](https://gis.ecds.emory.edu/).
+
 These are for Map Viewer. Esri renames menus from time to time, so if a label differs, look for the nearest match.
 
 | To do this | Go to |
