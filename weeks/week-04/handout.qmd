@@ -103,6 +103,11 @@ Sign in at [emory.maps.arcgis.com](https://emory.maps.arcgis.com). Login instruc
 
 Main finding: several localized epidemics of different intensity inside a widely spread epidemic, supporting interventions targeted at the highest-risk communities alongside population-wide measures.
 
+## Critical lens
+
+- South Africa's 1950 Population Registration Act classified everyone by race; the 1950 Group Areas Act assigned residential areas by race; Black South Africans were assigned to rural "homelands". Health and service patterns still follow these boundaries.
+- Redlining was done with maps. Boundaries, classes and colours can exclude as well as reveal.
+
 ## Six questions to ask any disparity map
 
 1. Who defined the categories, and how?

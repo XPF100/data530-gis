@@ -327,6 +327,31 @@ In ArcGIS Online: **Analysis → Connect Origins to Destinations** draws lines a
 This slide goes beyond the textbook. Migration data usually come as origin-destination tables: one row per move or per pair of places, with the origin, the destination and a count. A flow map connects each origin to its destination with a line whose width shows the volume, the flowline map type from Week 1. Once you have both coordinates, you can also calculate the distance of each move and classify moves as short or long, just as Dobra and colleagues did. In ArcGIS Online, the Connect Origins to Destinations analysis tool draws these lines and measures straight-line distance or travel time. Analysis tools consume credits, so run them on small datasets first. The steps are on the handout.
 :::
 
+## Critical lens: migration shaped by law and race
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.card}
+**South Africa's migrant labour system**
+
+For most of the 1900s, rural Black men were recruited to work in mines and cities while their families stayed in rural reserves. Pass laws, repealed in 1986, controlled where Black South Africans could live and work.
+:::
+:::
+::: {.column width="50%"}
+::: {.card}
+**Race in immigration law**
+
+The textbook traces race-based rules: US citizenship limited to "free white persons" in 1790, the Chinese Exclusion Act of 1882, and the White Australia Policy.
+:::
+:::
+::::
+
+[Circular labour migration, built into the apartheid economy, is one reason mobility and HIV are so closely linked in this region.]{.muted}
+
+::: {.notes}
+A critical lens on migration. In South Africa, migration was not simply a free choice responding to push and pull. For most of the twentieth century, a migrant labour system recruited rural Black men to work in mines and cities while their families were required to remain in rural reserves. Pass laws, repealed only in 1986, controlled where Black South Africans could live and work. The result was circular migration: men living for long periods in single-sex hostels far from home and returning periodically. Researchers have long linked this system to the spread of HIV and tuberculosis in southern Africa, and its legacy is part of why mobility matters so much in this week’s paper. The textbook adds the history of race in immigration law elsewhere: US citizenship limited to free white persons in 1790, the Chinese Exclusion Act of 1882, quotas favouring northern and western Europeans in the 1920s, and Australia’s White Australia Policy. Push and pull describe individual decisions; law and power decide who is allowed to move.
+:::
+
 ## Questions to ask any migration map {background-color="#1B7F79" .dark}
 
 :::: {.columns}

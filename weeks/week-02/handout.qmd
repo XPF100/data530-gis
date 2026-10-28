@@ -91,6 +91,12 @@ Sign in at [emory.maps.arcgis.com](https://emory.maps.arcgis.com). Login instruc
 
 Field names vary by layer. Check the Data tab for the exact names before you calculate.
 
+## Critical lens
+
+- Population control has fallen hardest on less powerful groups: coercive sterilization in India and under China's one-child policy (textbook), and sterilization without proper consent of poor women and women of colour in the United States, including thousands of Native American women in the 1970s.
+- Apartheid-era national statistics often left out people in the nominally independent homelands, undercounting Black South Africans.
+- Ask of any "overpopulation" claim: too many people, or too few services, jobs and homes?
+
 ## Six questions to ask any population map
 
 1. Count, density or rate?

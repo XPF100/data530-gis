@@ -366,6 +366,31 @@ The authors call for interventions that target the communities at greatest risk,
 Two techniques work together here. Kernel smoothing, sketched on the left, turns individual points into a continuous surface: for each location it averages the people within three kilometres, so you see a prevalence surface rather than a choropleth of arbitrary units. Then the Kulldorff spatial scan statistic tests whether any circular area has more or fewer cases than expected by chance, the formal version of hot spot analysis from Week 1. It found three overlapping high-risk clusters along the national road, with relative risks of one point three four to one point six two, and three low-risk clusters elsewhere, with relative risks of point two to point three eight. Even in a generalised epidemic, then, there are localised epidemics of different intensity. The authors argue for targeting the highest-risk communities, alongside measures aimed at everyone.
 :::
 
+## Critical lens: segregation by design
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.card}
+**Apartheid spatial planning**
+
+The 1950 Population Registration Act classified every South African by race. The 1950 Group Areas Act assigned residential areas by race, and Black South Africans were assigned to rural "homelands".
+:::
+:::
+::: {.column width="50%"}
+::: {.card}
+**Maps as instruments**
+
+Redlining maps were made by mapmakers. The same tools we use, boundaries, classes and colours, were used to exclude people.
+:::
+:::
+::::
+
+[Today's patterns of health, services and wealth in South Africa still follow these planned boundaries, which is why place-based data matter for equity.]{.muted}
+
+::: {.notes}
+A critical lens on segregation. This chapter is about the United States, but South Africa took segregation further, as deliberate spatial planning. The 1950 Population Registration Act classified every person by race. The Group Areas Act of the same year assigned residential areas to each racial group and forcibly removed people who lived in the wrong area, and Black South Africans were assigned to rural homelands. Many of today’s patterns of health, services and wealth in South Africa still follow those planned boundaries. Notice also that redlining in the United States was carried out with maps: someone drew the boundaries, chose the grades and coloured the neighbourhoods. The tools we are learning, boundaries, classification and colour, have been used to exclude people. That is a reason to use them carefully, and to use them to reveal inequity rather than reproduce it.
+:::
+
 ## Questions to ask any disparity map {background-color="#1B7F79" .dark}
 
 :::: {.columns}

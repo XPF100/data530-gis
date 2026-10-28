@@ -388,6 +388,27 @@ Women: **73%** · Men: **61%**
 To appreciate the gain, look at where ACDIS started. The Week 1 cohort profile reports that in 2000 the probability of dying between ages sixteen and sixty was fifty-eight percent for women and seventy-five percent for men. Verbal autopsies found that AIDS caused seventy-three percent of deaths among women aged fifteen to forty-four, and sixty-one percent among men. This is the opposite of what the demographic transition predicts: death rates in young adults rose sharply. It also reshaped the population pyramid and households. Orphanhood doubled between 2000 and 2005, and many children were raised by grandparents. When you look at a pyramid, ask what history made its shape.
 :::
 
+## Critical lens: who gets called "overpopulated"?
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.card}
+**Population control fell on the less powerful.** The textbook describes coercive sterilization in India and the one-child policy in China. In the United States, poor women and women of colour were also sterilized without proper consent; a 1970s federal review found thousands of sterilizations of Native American women by the Indian Health Service.
+:::
+:::
+::: {.column width="50%"}
+::: {.card}
+**Who is counted shapes the denominator.** Apartheid-era national statistics often left out people living in the nominally independent homelands, so official figures undercounted Black South Africans.
+:::
+
+[Ask of any "overpopulation" claim: too many people, or too few services, jobs and homes? The textbook makes the same point.]{.muted}
+:::
+::::
+
+::: {.notes}
+A critical lens on population. Fears of overpopulation have repeatedly been aimed at poorer and less powerful groups. The textbook describes coercive sterilisation campaigns in India and the coercion that sometimes accompanied China’s one-child policy. The same pattern appeared in the United States, where eugenics laws allowed forced sterilisation in the twentieth century, and where poor women, Black and Latina women, and Native American women were sterilised without proper consent. A federal review in the 1970s found thousands of sterilisations of Native American women by the Indian Health Service, many without adequate consent. Counting itself can also reflect power. Apartheid-era national statistics often excluded people living in the so-called independent homelands, so official figures undercounted Black South Africans. This is one reason community-based surveillance systems like ACDIS matter. Finally, the chapter itself notes that overpopulation is a slippery idea: often the problem is not too many people, but too little transit, housing or economic opportunity.
+:::
+
 ## Questions to ask any population map {background-color="#1B7F79" .dark}
 
 :::: {.columns}

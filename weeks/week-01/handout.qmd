@@ -185,6 +185,14 @@ These are for Map Viewer. Esri renames menus from time to time, so if a label di
 | Measure a distance | Right toolbar → Measurement |
 | Save your map | Left toolbar → Save and open → Save as |
 
+## Critical lens
+
+- **Maps served conquest.** Colonial surveys mapped land to claim it. At the 1884–85 Berlin Conference, European powers set rules for dividing Africa; many borders ignored the people living there.
+- **Europe at the centre.** Mercator centres Europe and enlarges the high latitudes; "Middle East" and "Far East" are named from Europe.
+- **Ranking peoples.** Environmental determinism was used to justify colonial rule.
+- **Counting by race.** Early US censuses counted people as free or enslaved; apartheid South Africa classified everyone by race.
+- **Responses:** counter-mapping; community advisory boards (ACDIS has one of about 25 members); the CARE Principles for Indigenous Data Governance (Collective benefit, Authority to control, Responsibility, Ethics).
+
 ## Six questions to ask any health map
 
 1. Who made the data, and when?

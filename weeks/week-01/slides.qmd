@@ -669,6 +669,67 @@ How people view risk shapes where they build and live, such as on flood plains.
 The last part of the chapter is the ecological perspective, also called cultural ecology: how humans and their environment shape each other. Environmental determinism was the old idea that climate and landscape decide how people live and even how societies develop. It fell out of favour, partly because successful societies have grown in environments once thought too harsh. Possibilism is the more accepted view: the environment creates possibilities and constraints, but human ingenuity overcomes many of them. The chapter also discusses environmental perception, meaning how people view risk. Many people perceive natural hazards as controllable and build on flood plains or fire-prone hillsides. For public health, the key point is that people change their environment, and that changes their exposure. In the ACDIS area, households reporting piped water almost doubled, from forty-three to seventy-eight percent, between 2001 and 2006. In Week 7 we will read a study that used ACDIS data to measure what that change meant for a waterborne disease.
 :::
 
+## Critical lens: geography grew up with empire
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.card}
+**Maps served conquest.** European exploration and colonial surveys mapped land to claim it. At the 1884–85 Berlin Conference, European powers set rules for dividing Africa, and many borders were drawn with little regard for the people living there.
+:::
+
+::: {.card}
+**Europe at the centre.** Mercator puts Europe near the middle and enlarges the high latitudes. Names like "Middle East" and "Far East" describe places by their distance from Europe.
+:::
+:::
+::: {.column width="50%"}
+::: {.card}
+**Ranking peoples.** Environmental determinism was used to claim that temperate, European societies were naturally superior, a justification for colonial rule.
+:::
+
+::: {.card}
+**Counting by race.** The first US censuses counted people as free or enslaved. Apartheid South Africa classified every person by race and used maps to separate them.
+:::
+:::
+::::
+
+::: {.notes}
+Before we finish, a critical lens on the discipline itself. Geography and mapmaking grew up alongside European empire. Explorers and colonial surveyors mapped land in order to claim, tax and govern it. At the Berlin Conference of 1884 and 1885, European powers agreed rules for dividing Africa among themselves, and many of the resulting borders paid little attention to the people who lived there. Our everyday maps carry that history: the Mercator projection puts Europe near the centre and inflates the high latitudes, and as the chapter points out, names such as the Near, Middle and Far East describe places by their distance from Europe. Ideas could be harmful too. The chapter describes environmental determinism, the belief that temperate climates made European societies vigorous and productive while tropical climates held others back. That idea was used to justify colonial rule. And counting people has never been neutral. As we will see in Week 4, the first US censuses classified people as free or enslaved, and apartheid South Africa classified every person by race and then used maps and laws to separate them. None of this means maps are bad. It means every map reflects choices about who is counted, how and why.
+:::
+
+## How the field is responding
+
+:::: {.columns}
+::: {.column width="33%"}
+::: {.card}
+**Counter-mapping**
+
+Communities make their own maps, to document land claims, hazards or services that official maps leave out.
+:::
+:::
+::: {.column width="33%"}
+::: {.card}
+**Community oversight**
+
+ACDIS discusses every research initiative with a Community Advisory Board of about 25 members chosen by the community.
+:::
+:::
+::: {.column width="33%"}
+::: {.card .tint}
+**Data governance**
+
+The CARE Principles for Indigenous Data Governance: **C**ollective benefit, **A**uthority to control, **R**esponsibility, **E**thics.
+:::
+:::
+::::
+
+Throughout this course, a **Critical lens** slide each week asks how power, colonialism and racism shaped that week's topic.
+
+[ACDIS: Tanser F, et al. Int J Epidemiol. 2008;37(5):956-962]{.small .muted}
+
+::: {.notes}
+The field is responding in several ways. Counter-mapping, sometimes called participatory mapping, puts mapping in the hands of communities, who use it to document land claims, environmental hazards or services that official maps leave out. Public health research has developed community oversight. The ACDIS cohort profile you read this week explains that every research initiative is first discussed with a Community Advisory Board of about twenty-five members chosen by the community, who also help decide how results are shared. And researchers are adopting principles for data governance. The CARE principles for Indigenous data governance ask that data bring collective benefit, that communities have authority to control data about them, and that researchers act with responsibility and ethics. Each week from now on, a critical lens slide asks how power, colonialism, racism and other forms of discrimination shaped that week’s topic and the data we use to study it.
+:::
+
 ## Every map is an argument. Question it. {background-color="#1B7F79" .dark}
 
 :::: {.columns}

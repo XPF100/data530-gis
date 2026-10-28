@@ -83,6 +83,11 @@ Main finding: a nonlinear relationship. Even relatively short moves carried subs
 
 Sign in at [emory.maps.arcgis.com](https://emory.maps.arcgis.com). Login instructions and free Esri training are on the [Emory GIS resources page](https://gis.ecds.emory.edu/). Esri renames menus from time to time, so if a label differs, look for the nearest match.
 
+## Critical lens
+
+- South Africa's migrant labour system recruited rural Black men to mines and cities while families stayed in rural reserves. Pass laws, repealed in 1986, controlled where Black South Africans could live and work. Circular migration is one reason mobility and HIV are closely linked in the region.
+- Race in immigration law (textbook): US citizenship limited to "free white persons" (1790), the Chinese Exclusion Act (1882), quotas favouring northern and western Europe (1920s), the White Australia Policy.
+
 ## Six questions to ask any migration map
 
 1. Stock or flow? Over what period?
