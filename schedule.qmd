@@ -1,0 +1,18 @@
+---
+title: "Schedule"
+toc: false
+---
+
+One textbook chapter per week. Each week builds one public health GIS skill.
+
+| Week | Chapter | Public health GIS skill | Textbook exercises |
+|---|---|---|---|
+| [1](weeks/week-01/index.qmd) | Ch 1 Introduction | Reading and critiquing a health map: data quality, projections, classification, scale | 1.1, 1.2, 1.4 |
+| [2](weeks/week-02/index.qmd) | Ch 2 Population | Counts vs rates, density, population pyramids, demographic transition | 2.1, 2.2, 2.3, 2.4 |
+| [3](weeks/week-03/index.qmd) | Ch 3 Migration | Flows and mobility, distance decay, mobility as an exposure | 3.1, 3.2, 3.3 |
+| [4](weeks/week-04/index.qmd) | Ch 4 Race and ethnicity | Measuring disparities: ratios, location quotient, environmental justice, table joins | 4.1, 4.2, 4.4, 4.5 |
+| [5](weeks/week-05/index.qmd) | Ch 6 Food and agriculture | Access analysis: food security, buffers and proximity | 6.4, 6.5 |
+| [6](weeks/week-06/index.qmd) | Ch 9 Development | Composite indices, inequality, the rural–urban divide, distance to services | 9.1, 9.3, 9.4 |
+| [7](weeks/week-07/index.qmd) | Ch 12 Humans and the environment | Exposure assessment: water, sanitation, air pollution, climate; capstone map | 12.2, 12.3, 12.5 |
+
+Due dates are posted in Canvas.

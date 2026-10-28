@@ -1,0 +1,36 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Public+Sans:wght@400;600;700&display=swap');
+
+$ink: #1E2B33;
+$paper: #F7F5EF;
+$teal: #1B7F79;
+$teal-dark: #14605B;
+$teal-light: #D5E8E4;
+$orange: #D9822B;
+
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $teal-dark;
+$primary: $teal;
+$font-family-sans-serif: "Public Sans", Arial, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, serif;
+$headings-font-weight: 600;
+
+/*-- scss:rules --*/
+.callout-note { border-left-color: $teal !important; }
+
+table {
+  background: #FFFFFF;
+}
+
+thead th {
+  background: $teal-light;
+}
+
+.week-card {
+  background: #FFFFFF;
+  border: 1px solid #DCD6C8;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}

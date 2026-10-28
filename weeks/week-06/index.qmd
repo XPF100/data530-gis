@@ -1,0 +1,23 @@
+---
+title: "Week 6 · Development and access"
+subtitle: "Textbook Chapter 9, Development"
+---
+
+**Skill this week:** composite indices such as the Human Development Index, inequality, the rural–urban divide, and distance to health services.
+
+## Read
+
+- Chapter 9, Development
+- Tanser F, Gijsbertsen B, Herbst K. Modelling and understanding primary health care accessibility and utilization in rural South Africa: an exploration using a geographical information system. *Soc Sci Med.* 2006;63(3):691-705. [doi:10.1016/j.socscimed.2006.01.015](https://doi.org/10.1016/j.socscimed.2006.01.015)
+
+## Map
+
+ArcGIS Online Exercises 9.1 Human development, 9.3 Density and the rural–urban divide, and 9.4 Distance to urban areas.
+
+## Public health case
+
+Travel time to the nearest clinic in the ACDIS area, modelled in a GIS, and how it shapes clinic use.
+
+::: {.callout-note}
+Slides and handout for this week are being prepared.
+:::

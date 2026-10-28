@@ -1,0 +1,199 @@
+---
+title: "Week 1 handout: GIS foundations cheat sheet"
+subtitle: "DATA 530 · Textbook Chapter 1"
+format:
+  html: default
+  typst:
+    papersize: us-letter
+    margin:
+      x: 0.75in
+      y: 0.7in
+    fontsize: 10pt
+---
+
+Keep this sheet open during the labs. It covers every Week 1 concept from Chapter 1, plus the data models and datums the textbook skips (marked \*).
+
+## Key terms
+
+| Term | Means | Health example |
+|---|---|---|
+| GPS | Finds a receiver's location from satellite signals: 3 satellites for latitude and longitude, 4 to add altitude | Fieldworkers geocoding every homestead |
+| Remote sensing | Images of Earth from satellites or aircraft, often classified into land cover | Mapping mosquito habitat |
+| GIS | Software that creates, stores and analyses geographic data | Overlaying cases, clinics and roads |
+| Spatial data | Where a feature is | A clinic's coordinates |
+| Attribute data | What a feature is: the columns in its attribute table | The clinic's name, staff, opening hours |
+| Layer | One theme of data, stacked with other layers | Homesteads, roads, clinics, land cover |
+| Vector\* | Points, lines and polygons with exact edges. In ArcGIS Online: feature layers | Clinics (points), roads (lines), districts (polygons) |
+| Raster\* | A grid of equal cells, one value each. Cell size = resolution. In ArcGIS Online: imagery and tile layers | Rainfall, elevation, satellite images |
+| Metadata | Data about the data: who, when, how, coordinate system, quality | A layer's ArcGIS Online item page |
+
+**Vector or raster?** A thing with a boundary → vector. A value that changes continuously across space → raster.
+
+## Data quality checklist
+
+Ask these five questions before you trust a dataset. The answers should be in its metadata.
+
+| Dimension | Ask | Watch for |
+|---|---|---|
+| Spatial accuracy | Is each feature in the right place? How precise? | A clinic geocoded to the wrong town |
+| Temporal accuracy | When was it made? Is it still current? | An old facility list used for today's planning |
+| Attribute accuracy | Are the values correct? How wide are the error margins? | Prevalence estimated from a tiny sample |
+| Completeness | Are any features or areas missing? | A blank that means no data, not no cases |
+| Data source | Who made it? Are they reliable? | A national statistics agency versus an unknown blog |
+
+**ACDIS as a worked example** (Tanser et al. 2008). The surveillance area covers about 438 km² near Mtubatuba, KwaZulu-Natal, with about 85,000 people in 11,000 households.
+
+- Spatial accuracy: every homestead and facility mapped with differential GPS to under 2 m
+- Temporal accuracy: households visited every 6 months; new homesteads added as they are built
+- Completeness: over 99% household participation
+- Completeness risk: consent to HIV testing fell from about 60% to about 40% (2003 to 2006), so prevalence maps from testers alone may be biased
+
+## Map types
+
+**Reference maps** show many general features (roads, rivers, towns). The ArcGIS Online basemap is one. **Thematic maps** show one topic. Layers you add, such as Living Atlas data, are thematic.
+
+| Thematic type | Shows data as | Use it for | Health example |
+|---|---|---|---|
+| Choropleth | Shaded areas | Rates or ratios by area | HIV prevalence by district |
+| Graduated circle | Circle size | Amounts at a place | Patients seen per clinic |
+| Isoline | Lines joining equal values | Continuous surfaces | Rainfall, elevation |
+| Dot density | Dots placed in areas (1 dot = N) | Counts spread across areas | Households per ward |
+| Flowline | Line thickness | Movement between places | Migration to cities |
+| Cartogram | Area resized by value | Comparing magnitudes | Countries sized by deaths |
+
+## Scale, projections and coordinates
+
+**Map scale** = map distance relative to real distance. It can be verbal (1 inch = 1 mile), a ratio (1:24,000, the same units on both sides) or a graphic scale bar.
+
+|  | Large scale | Small scale |
+|---|---|---|
+| Ratio | Bigger fraction, e.g. 1:5,000 | Smaller fraction, e.g. 1:1,000,000 |
+| View | Zoomed in | Zoomed out |
+| Area and detail | Small area, much detail | Large area, little detail |
+| Example | A village | A province |
+
+Memory trick: your neighbourhood looks *large* on a *large*-scale map.
+
+**MAUP (modifiable areal unit problem):** the units you aggregate to (province, district, ward) change the pattern you see. No scale is always right, so match the unit to the decision.
+
+**Projections** flatten the globe and always distort area, shape, distance or direction.
+
+| Type | Preserves | Distorts | Example |
+|---|---|---|---|
+| Conformal | Shape | Area, which grows toward the poles | Mercator; ArcGIS Online uses Web Mercator |
+| Equal-area | Area | Shape | Mollweide |
+
+On Mercator, Greenland looks as big as Africa, but Africa is about 14 times larger. Compare rates across countries on an equal-area projection.
+
+**Coordinates**
+
+- Latitude: 0° at the equator to 90° N or S. Longitude: 0° at the prime meridian (Greenwich) to 180° E or W
+- Decimal degrees: **south and west are negative**. The ACDIS area near Mtubatuba is about 28.4° S, 32.2° E = **−28.4, 32.2**
+- Degrees, minutes, seconds: 1° = 60 minutes; 1 minute = 60 seconds
+- Datum\*: the model of Earth's shape that coordinates are measured against. GPS and most web maps use **WGS 84**. The same numbers on another datum can land tens to hundreds of metres away
+- UTM\*: a projected system in metres, 60 zones each 6° wide. The ACDIS area is in **zone 36S**
+
+## Counts, rates and classification
+
+Counts show where cases are. Rates show where risk is.
+
+**Rate per 100,000 = (cases ÷ population) × 100,000**
+
+| District | Cases | Population | Rate per 100,000 |
+|---|---|---|---|
+| Town | 2,000 | 200,000 | 1,000 |
+| Rural | 600 | 20,000 | 3,000 |
+
+Illustrative values: the town has more cases, but the rural district has three times the risk.
+
+**Rule:** shade areas (choropleth) by rates. Show counts with graduated circles or dots.
+
+**Classification** sets the cut points between colour classes. The data never changes, but the map's message can.
+
+| Scheme | How it splits | Risk |
+|---|---|---|
+| Equal interval | Equal-width value ranges | Skewed data piles into one class and looks reassuring |
+| Quantile | Same number of areas per class | A share of areas always looks "high", even when differences are small |
+| Natural breaks | Groups similar values together | Breaks differ between maps, so maps are harder to compare |
+| Standard deviation | Distance from the mean | Needs a diverging colour scheme |
+
+Always read the legend's breaks before you believe a choropleth.
+
+## The geographic perspective
+
+**Location.** Absolute location is a fixed point (coordinates, street address). Relative location is position relative to other features (2 km from a clinic, beside the main road).
+
+| Distance | Measures | Health use |
+|---|---|---|
+| Euclidean | A straight line, "as the crow flies" | Quick screening of proximity |
+| Manhattan or network | Along streets or roads | Realistic travel routes |
+| Cost distance | Weighted by time, terrain or money | Travel time to care. ACDIS median to the nearest clinic: 81 minutes (Tanser et al. 2006) |
+
+**Spatial patterns**
+
+- Density = features per unit area. It reveals what raw counts hide
+- Clustered = grouped together, so look for a shared cause. Hot spot analysis tests whether a cluster is more than chance
+- Random = no evident spatial process
+- Dispersed = features repel each other, like evenly spaced clinics
+- ACDIS: HIV prevalence was over 35% in informal settlements near the national road and under 10% in remote rural areas (Tanser et al. 2008)
+
+**Spatial relationships** compare two or more feature types: their distance apart and their overlap. Spatial correlation can be positive, negative or none. Correlation does not imply causation, so choose layers using theory and past research.
+
+| Region type | Defined by | Health example |
+|---|---|---|
+| Formal | One or more shared, measurable traits | A malaria-endemic zone |
+| Functional | A node plus the area that interacts with it | A clinic's catchment area |
+| Perceptual | How people perceive it; fuzzy edges | "The township" as residents describe it |
+
+Places are unique locations that people develop a sense of place about. People navigate them with mental maps.
+
+**Interaction and diffusion.** Tobler's first law: everything is related to everything else, but near things are more related than distant things. Distance decay means interaction falls as distance grows.
+
+| Diffusion | How it spreads | Health example |
+|---|---|---|
+| Relocation | People carry it as they move | An infection brought home by a returning migrant |
+| Contagious (expansion) | Person to person, by proximity | A measles outbreak rippling outward |
+| Hierarchical (expansion) | From large or powerful places down | New drugs reach city hospitals before rural clinics |
+| Stimulus | The idea spreads and is adapted | Clinic HIV testing adapted to home-based testing |
+
+Barriers slow diffusion. They can be physical (rivers, mountains) or cultural (language, stigma).
+
+**Human–environment interaction**
+
+- Environmental determinism: the old idea that environment decides how people live. Largely rejected
+- Possibilism: environment offers options and constraints that people can overcome
+- Environmental perception: how people view risk shapes where they live, such as on flood plains
+- ACDIS: households with piped water rose from 43% to 78% between 2001 and 2006 (Tanser et al. 2008)
+
+Textbook correction: the flu pandemic in this part of Chapter 1 is the 1918 pandemic, not 1891 as printed.
+
+## ArcGIS Online quick steps
+
+These are for Map Viewer. Esri renames menus from time to time, so if a label differs, look for the nearest match.
+
+| To do this | Go to |
+|---|---|
+| Change the basemap | Left toolbar → Basemap |
+| Add a layer | Left toolbar → Layers → Add → browse My Content or Living Atlas |
+| Check a layer's metadata | Open the layer's item page: read Description, Credits (Attribution), Details (dates) and Terms of Use. The Data tab lists its fields |
+| See the attribute table | Select the layer → Show table |
+| Map a column | Select the layer → right toolbar → Styles → choose the attribute |
+| Turn counts into rates | Styles → Counts and amounts → Style options → Divided by → choose the population field |
+| Change class breaks | Style options → Classify data → pick the method (equal interval, quantile, natural breaks, standard deviation) and number of classes |
+| Measure a distance | Right toolbar → Measurement |
+| Save your map | Left toolbar → Save and open → Save as |
+
+## Six questions to ask any health map
+
+1. Who made the data, and when?
+2. What is missing? Could a blank mean no data rather than no cases?
+3. Is it showing counts or rates?
+4. Which class breaks were used?
+5. Which projection, and does it distort area?
+6. Which areal units, and would a different unit change the story?
+
+## Sources
+
+- Textbook: *Introduction to Human Geography Using ArcGIS Online*, Chapter 1 (Esri Press)
+- Tanser F, Hosegood V, Bärnighausen T, et al. Cohort profile: Africa Centre Demographic Information System (ACDIS) and population-based HIV survey. *Int J Epidemiol.* 2008;37(5):956-962. [doi:10.1093/ije/dym211](https://doi.org/10.1093/ije/dym211)
+- Tanser F, Gijsbertsen B, Herbst K. Modelling and understanding primary health care accessibility and utilization in rural South Africa: an exploration using a geographical information system. *Soc Sci Med.* 2006;63(3):691-705. [doi:10.1016/j.socscimed.2006.01.015](https://doi.org/10.1016/j.socscimed.2006.01.015)

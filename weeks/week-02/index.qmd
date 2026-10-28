@@ -1,0 +1,23 @@
+---
+title: "Week 2 · Population"
+subtitle: "Textbook Chapter 2"
+---
+
+**Skill this week:** counts vs rates (normalizing), population density, population pyramids and the demographic transition.
+
+## Read
+
+- Chapter 2, Population
+- Bor J, Herbst AJ, Newell ML, Bärnighausen T. Increases in adult life expectancy in rural South Africa: valuing the scale-up of HIV treatment. *Science.* 2013;339(6122):961-965. [doi:10.1126/science.1230413](https://doi.org/10.1126/science.1230413)
+
+## Map
+
+ArcGIS Online Exercises 2.1 Spatial distribution, 2.2 Fertility, 2.3 Death rates and 2.4 Population structure.
+
+## Public health case
+
+ACDIS as a health and demographic surveillance system: births, deaths, population pyramids, and the recovery in adult life expectancy after HIV treatment was scaled up.
+
+::: {.callout-note}
+Slides and handout for this week are being prepared.
+:::

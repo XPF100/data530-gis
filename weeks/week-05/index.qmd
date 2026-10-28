@@ -1,0 +1,23 @@
+---
+title: "Week 5 · Food and health"
+subtitle: "Textbook Chapter 6, Food and agriculture"
+---
+
+**Skill this week:** access analysis for food security, using buffers and proximity.
+
+## Read
+
+- Chapter 6, Food and agriculture
+- Wong EB, Olivier S, Gunda R, et al. Convergence of infectious and non-communicable disease epidemics in rural South Africa: a cross-sectional, population-based multimorbidity study. *Lancet Glob Health.* 2021;9(7):e967-e976. [doi:10.1016/S2214-109X(21)00176-5](https://doi.org/10.1016/S2214-109X(21)00176-5)
+
+## Map
+
+ArcGIS Online Exercises 6.4 Food deserts and racial disparities, and 6.5 Undernourishment and development.
+
+## Public health case
+
+Vukuzazi: the burden of obesity, hypertension and diabetes alongside HIV in a rural area.
+
+::: {.callout-note}
+Slides and handout for this week are being prepared.
+:::

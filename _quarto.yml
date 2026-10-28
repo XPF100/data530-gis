@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "DATA 530 · Introduction to GIS"
+  description: "Course materials for DATA 530, a fully online, asynchronous introduction to GIS for public health, using ArcGIS Online."
+  page-navigation: true
+  navbar:
+    background: "#1E2B33"
+    foreground: "#F7F5EF"
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Schedule
+        href: schedule.qmd
+      - text: Weeks
+        menu:
+          - text: "Week 1 · GIS foundations"
+            href: weeks/week-01/index.qmd
+          - text: "Week 2 · Population"
+            href: weeks/week-02/index.qmd
+          - text: "Week 3 · Migration"
+            href: weeks/week-03/index.qmd
+          - text: "Week 4 · Measuring disparities"
+            href: weeks/week-04/index.qmd
+          - text: "Week 5 · Food and health"
+            href: weeks/week-05/index.qmd
+          - text: "Week 6 · Development and access"
+            href: weeks/week-06/index.qmd
+          - text: "Week 7 · Environment and health"
+            href: weeks/week-07/index.qmd
+      - text: Readings
+        href: readings.qmd
+  page-footer:
+    left: "DATA 530 · Introduction to GIS"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true

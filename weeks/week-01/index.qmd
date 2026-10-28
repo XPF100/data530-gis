@@ -1,0 +1,31 @@
+---
+title: "Week 1 · GIS foundations"
+subtitle: "Textbook Chapter 1, Introduction"
+---
+
+**Skill this week:** reading and critiquing a health map. By the end of the week you should be able to explain how a GIS stores spatial and attribute data, judge a dataset's quality from its metadata, and spot when scale, projection, counts or class breaks mislead.
+
+## Materials
+
+::: {.week-card}
+**[Slides](slides.qmd)**: 25 slides covering all of Chapter 1. Press `S` to open the speaker notes, which explain each slide.
+:::
+
+::: {.week-card}
+**[Handout and cheat sheet](handout.qmd)**: every Week 1 concept on one page. Keep it open during the labs. A PDF version is linked on the handout page.
+:::
+
+## Read
+
+- Chapter 1, Introduction
+- Tanser F, Hosegood V, Bärnighausen T, et al. Cohort profile: Africa Centre Demographic Information System (ACDIS) and population-based HIV survey. *Int J Epidemiol.* 2008;37(5):956-962. [doi:10.1093/ije/dym211](https://doi.org/10.1093/ije/dym211)
+
+## Map
+
+Complete ArcGIS Online Exercises 1.1 Introduction to ArcGIS Online, 1.2 Map basics, and 1.4 Spatial patterns and spatial relationships. The links are at [esri.com/Human-Geography](https://www.esri.com/Human-Geography).
+
+For more practice: Exercises 1.3, 1.5, 1.6 and 1.7.
+
+## Public health case
+
+ACDIS mapped every homestead in its surveillance area with differential GPS. We use it this week to see what good spatial data quality looks like in practice, and where even good data can fall short.

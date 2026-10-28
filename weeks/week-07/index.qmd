@@ -1,0 +1,23 @@
+---
+title: "Week 7 · Environment and health"
+subtitle: "Textbook Chapter 12, Humans and the environment"
+---
+
+**Skill this week:** exposure assessment for air and water pollution, sanitation and climate, and a capstone map.
+
+## Read
+
+- Chapter 12, Humans and the environment
+- Tanser F, Azongo DK, Vandormael A, Bärnighausen T, Appleton C. Impact of the scale-up of piped water on urogenital schistosomiasis infection in rural South Africa. *eLife.* 2018;7:e33065. [doi:10.7554/eLife.33065](https://doi.org/10.7554/eLife.33065)
+
+## Map
+
+ArcGIS Online Exercises 12.2 Air pollution exposure at a local scale, 12.3 Sanitation and health, and 12.5 Global carbon emissions.
+
+## Public health case
+
+How piped water coverage in the ACDIS area relates to a waterborne parasitic infection.
+
+::: {.callout-note}
+Slides and handout for this week are being prepared.
+:::

@@ -1,0 +1,28 @@
+---
+title: "DATA 530 · Introduction to GIS"
+subtitle: "Mapping and spatial analysis for public health with ArcGIS Online"
+toc: false
+---
+
+Welcome. This site holds the course materials for DATA 530: the weekly slides, handouts and readings. Assignments, submissions and grades stay in Canvas.
+
+## How the course works
+
+The course is fully online and asynchronous, with seven weeks and one textbook chapter each week. Every week follows the same rhythm:
+
+1. **Read** the textbook chapter and one public health paper.
+2. **Watch** the slides. The speaker notes explain each slide; press `S` in the slides to open them.
+3. **Map** the ArcGIS Online exercises from the textbook.
+4. **Keep** the weekly handout. It doubles as a cheat sheet for the labs.
+
+## What you need
+
+- **Textbook:** *Introduction to Human Geography Using ArcGIS Online* (Esri Press). The exercise links are on the book's resource page at [esri.com/Human-Geography](https://www.esri.com/Human-Geography).
+- **ArcGIS Online:** an organizational account. Canvas has instructions for getting one.
+- **A web browser.** Nothing needs to be installed.
+
+## Public health throughout
+
+Each week ties GIS skills to real research from the Africa Health Research Institute's population surveillance site in rural KwaZulu-Natal, South Africa: the **ACDIS** health and demographic surveillance system and the **Vukuzazi** multimorbidity study.
+
+[See the schedule →](schedule.qmd)

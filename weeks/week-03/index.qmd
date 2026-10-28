@@ -1,0 +1,23 @@
+---
+title: "Week 3 · Migration"
+subtitle: "Textbook Chapter 3"
+---
+
+**Skill this week:** mapping flows and mobility, distance decay, and treating mobility as a health exposure.
+
+## Read
+
+- Chapter 3, Migration
+- Dobra A, Bärnighausen T, Vandormael A, Tanser F. Space-time migration patterns and risk of HIV acquisition in rural South Africa. *AIDS.* 2017;31(1):137-145. [doi:10.1097/QAD.0000000000001292](https://doi.org/10.1097/QAD.0000000000001292)
+
+## Map
+
+ArcGIS Online Exercises 3.1 Spatial distributions, 3.2 Push and pull forces and 3.3 Refugees.
+
+## Public health case
+
+Circular labour migration and the risk of HIV acquisition in the ACDIS surveillance population.
+
+::: {.callout-note}
+Slides and handout for this week are being prepared.
+:::

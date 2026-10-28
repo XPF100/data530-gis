@@ -1,0 +1,23 @@
+---
+title: "Week 4 · Measuring disparities"
+subtitle: "Textbook Chapter 4, Race and ethnicity"
+---
+
+**Skill this week:** measuring disparities with ratios and the location quotient, environmental justice, and joining tables with attribute keys.
+
+## Read
+
+- Chapter 4, Race and ethnicity
+- Tanser F, Bärnighausen T, Cooke GS, Newell ML. Localized spatial clustering of HIV infections in a widely disseminated rural South African epidemic. *Int J Epidemiol.* 2009;38(4):1008-1016. [doi:10.1093/ije/dyp148](https://doi.org/10.1093/ije/dyp148)
+
+## Map
+
+ArcGIS Online Exercises 4.1 Population ratios, 4.2 Location quotient, 4.4 Income, race and ethnicity, and 4.5 Environmental justice.
+
+## Public health case
+
+How HIV clusters in space within a widespread epidemic, and what that means for targeting prevention.
+
+::: {.callout-note}
+Slides and handout for this week are being prepared.
+:::
