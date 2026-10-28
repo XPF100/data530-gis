@@ -3,7 +3,17 @@ title: "Week 4 · Measuring disparities"
 subtitle: "Textbook Chapter 4, Race and ethnicity"
 ---
 
-**Skill this week:** measuring disparities with ratios and the location quotient, environmental justice, and joining tables with attribute keys.
+**Skill this week:** measuring disparities and joining tables. By the end of the week you should be able to calculate a location quotient, interpret an index of dissimilarity, join a health table to boundaries by a key, and explain why a cluster needs a statistical test.
+
+## Materials
+
+::: {.week-card}
+**[Slides](slides.qmd)**: categories, scale, location quotient, segregation, environmental justice, table joins, and HIV clustering. Press `S` to open the speaker notes.
+:::
+
+::: {.week-card}
+**[Handout and cheat sheet](handout.qmd)**: the Week 4 formulas, a checklist for joins, and ArcGIS Online steps. A PDF version is linked on the handout page.
+:::
 
 ## Read
 
@@ -12,12 +22,10 @@ subtitle: "Textbook Chapter 4, Race and ethnicity"
 
 ## Map
 
-ArcGIS Online Exercises 4.1 Population ratios, 4.2 Location quotient, 4.4 Income, race and ethnicity, and 4.5 Environmental justice.
+Complete ArcGIS Online Exercises 4.1 Measuring spatial distribution with population ratios, 4.2 Measuring spatial distribution with the location quotient, 4.4 Income, race and ethnicity, and 4.5 Environmental justice. The links are at [esri.com/Human-Geography](https://www.esri.com/Human-Geography).
+
+For more practice: Exercises 4.3 Tapestry segmentation and 4.6 The cultural landscape.
 
 ## Public health case
 
-How HIV clusters in space within a widespread epidemic, and what that means for targeting prevention.
-
-::: {.callout-note}
-Slides and handout for this week are being prepared.
-:::
+Within one relatively homogeneous rural population, local HIV prevalence ranged from 6% to 36%, with three statistically significant high-risk clusters along the national road.
